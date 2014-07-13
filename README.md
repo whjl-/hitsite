@@ -1,2 +1,3 @@
-<img src="http://filespace.whjl.info/member/download/download.php?view=1&n=logo-compressed.png&ct=image/png&f=files/f034263645759e43886509f6d058ffeb-logo-compressed.png" alt="hitsite js" style="width:100px;"/>
+hitsite
 =======
+hitsite is a very useful PHP and JavaScript plugin that you can use to easily manage your site requests.
