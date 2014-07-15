@@ -9,7 +9,7 @@ hitsite is a very useful PHP plugin that you can use to easily manage your site 
 <?php
 require_once('hitsite/hitsite.php');
 ?>
-</code>
+</code><br>
 4) SSH into your server and 'cd' into the directory that you placed the 'hitsite' folder and chmod the 'requests' folder like this:<br>
 <code>
 sudo chmod -R 777 requests/
