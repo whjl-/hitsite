@@ -13,8 +13,8 @@ require_once('hitsite/hitsite.php');
 4) SSH into your server and 'cd' into the directory that you placed the 'hitsite' folder and chmod the 'requests' folder like this:<br>
 <code>
 sudo chmod -R 777 requests/
-</code> 
-<i>Note: If this fails to work then try this: </i>
+</code> <br>
+<i>Note: If this fails to work then try this: </i><br>
 <code>
 sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/etc...)] requests/
 </code> 
