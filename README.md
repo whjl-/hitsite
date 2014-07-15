@@ -14,7 +14,7 @@ require_once('hitsite/hitsite.php');
 <code>
 sudo chmod -R 777 requests/
 </code> <br>
-<i>Note: If this fails to work then try this: </i><br>
+<i>Note: If that fails to work then try this: </i><br>
 <code>
 sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/etc...)] requests/
 </code> 
