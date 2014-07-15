@@ -22,7 +22,7 @@ sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/et
 <br><br>
 ###Usage
 <hr>
-Whenever someone visits the page in which you included the line in step 4 they will be logged in this page <b>/hitsite/requests/</b> and you will need to enter a password to access. By default this password will be 'password', to change this edit the <b>/hitsite/requests/index.php</b> page.
+Whenever someone visits the page in which you included the line in step 4 they will be logged in this page <b>/hitsite/requests/</b> and you will need to enter a password to access. By default this password will be 'password', to change this edit the <b>/hitsite/requests/index.php</b> page. You may also change your timezone in here from GMT/UTC by default.
 <br><br>
 ###Troubleshooting
 <hr>
