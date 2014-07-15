@@ -11,7 +11,7 @@ hitsite is a very useful PHP plugin that you can use to easily manage your site 
 require_once('hitsite/hitsite.php');
 ?>
 </code><br>
-4) SSH into your server and 'cd' into the directory that you placed the 'hitsite' folder and chmod the 'requests' folder like this:<br>
+4) SSH into your server and 'cd' into the directory that you placed the 'hitsite' folder and chmod the 'requests' folder (located within the 'hitsite' folder) like this:<br>
 <code>
 sudo chmod -R 777 requests/
 </code> <br>
@@ -20,9 +20,13 @@ sudo chmod -R 777 requests/
 sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/etc...)] requests/
 </code> 
 <br><br>
+###Usage
+<hr>
+Whenever someone visits the page in which you included the line in step 4 they will be logged in this page <b>/hitsite/requests/</b> and you will need to enter a password to access. By default this password will be 'password', to change this edit the <b>/hitsite/requests/index.php</b> page.
+<br><br>
 ###Troubleshooting
 <hr>
-If you're having issues it is likely to be permissions problems, check item 4 or email me at langfordwill1@gmail.com<br><br>
+If you're having issues it is likely to be permissions problems, check step 4 or email me at langfordwill1@gmail.com<br><br>
 If warnings are displayed on you page but the plugin works put this line on the troblesome page:<br>
 <code>
 error_reporting(E_ERROR | E_PARSE);
