@@ -19,3 +19,11 @@ sudo chmod -R 777 requests/
 <code>
 sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/etc...)] requests/
 </code> 
+<br><br>
+###Troubleshooting
+<hr>
+If you're having issues it is likely to be permissions problems, check item 4 or email me at langfordwill1@gmail.com<br><br>
+If warnings are displayed on you page but the plugin works put this line on the troblesome page:<br>
+<code>
+error_reporting(E_ERROR | E_PARSE);
+</code>
