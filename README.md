@@ -19,11 +19,11 @@ sudo chmod -R 777 requests/
 <code>
 sudo chown -R [the username that your webserver runs as (e.g. www-data/apache/etc...)] requests/
 </code> 
-<br>
+<br><br>
 You can also run <code>bower install hitsite</code> if you use bower, in which case the file you wish to track would have this line at the top:<br>
 <code>
-<?php
-require_once('bower_components/hitsite/hitsite/hitsite.php');
+<?php<br>
+require_once('bower_components/hitsite/hitsite/hitsite.php');<br>
 ?>
 </code>
 <br><br>
